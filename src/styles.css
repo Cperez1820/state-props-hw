@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.homepage {
+  border: 1px solid black;
+  width: 400px;
+}
+
+h1 {
+  border: 2.5px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+#searchbar {
+  width: 90%;
+  height: 25px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  text-align: center;
+}
+
+.employee {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  padding: 5px 15px 5px;
+  margin: 5px;
+}
+
+.list-img img {
+  display: block;
+  border-radius: 50%;
+  margin-right: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+.list-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+.list-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.list-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #bbbbbb;
+}
